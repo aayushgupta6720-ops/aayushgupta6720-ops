@@ -20,11 +20,11 @@ Answers support questions from a knowledge base, with a LangGraph agent deciding
 
 `Python · FastAPI · LangGraph · Qdrant · Gemini API · Docker · MCP`
 
-**E-Commerce Product Analytics** — customer and revenue analysis
+**[E-Commerce Product Analytics Dashboard](https://github.com/aayushgupta6720-ops/ecommerce-analytics-dashboard)** — interactive sales and customer analytics · [Live demo](https://ecommerce-analytics-dashboard-aapp.onrender.com)
 
-Analysed 245,909 transactions across 4,273 customers. Found that the top 10% of customers generated 40% of revenue, measured a 64% repeat-purchase rate, and turned the findings into 5 prioritised recommendations for engagement and product mix.
+Interactive dashboard over 1M invoice lines from a UK online retailer (UCI Online Retail II). Seven pages cover revenue trends, product concentration (22% of products bring in 80% of revenue), RFM customer segments (Champions are 14% of customers but 51% of revenue), cohort retention, market-basket rules and returns. Every metric is unit-tested, and a Power BI kit rebuilds the same model with tie-out numbers that match the app.
 
-`Python · SQL · MySQL · Pandas · Power BI`
+`Python · Pandas · Streamlit · Plotly · SciPy · Power BI · DAX`
 
 ## What I work with
 
