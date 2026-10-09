@@ -1,6 +1,6 @@
 # Hi, I'm Aayush
 
-Computer Science undergraduate at Jaypee University of Engineering & Technology (B.Tech, 2027), based in Guna, Madhya Pradesh.
+Computer Science undergraduate at Jaypee University of Engineering & Technology (B.Tech, 2027), based in India.
 
 I build AI systems that automate real work, and I use data to figure out what's worth building. I care most about the parts that make AI trustworthy: testing its output before relying on it, knowing when to hand a decision to a human, and making every run observable.
 
