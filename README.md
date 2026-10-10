@@ -34,9 +34,9 @@ Built to show how a production AI app is organised: client, intelligence, infere
 
 **[E-Commerce Product Analytics Dashboard](https://github.com/aayushgupta6720-ops/ecommerce-analytics-dashboard)** — interactive sales and customer analytics · [Live demo](https://ecommerce-analytics-dashboard-aapp.onrender.com)
 
-Interactive dashboard over 1M invoice lines from a UK online retailer (UCI Online Retail II). Ten pages cover revenue trends, product concentration (22% of products bring in 80% of revenue), RFM customer segments (Champions are 14% of customers but 52% of revenue), cohort retention, market-basket rules, returns, five sized recommendations, and predictions scored on a holdout year (churn AUC 0.759 against a 0.707 baseline). Every metric is unit-tested, the core metrics also run as SQL in DuckDB, and a Power BI kit rebuilds the same model with tie-out numbers that match the app.
+Interactive dashboard over 1M invoice lines from a UK online retailer (UCI Online Retail II). Eleven pages cover revenue trends, product concentration (22% of products bring in 80% of revenue), RFM customer segments (Champions are 14% of customers but 52% of revenue), cohort retention, market-basket rules, returns, five sized recommendations, and predictions scored on a holdout year (churn AUC 0.759 against a 0.707 baseline). An *Ask the data* page answers plain-English questions: Gemini turns each one into a structured request and the tested metric code computes the answer, so the model never produces the numbers (28/28 on a golden-set eval). Every metric is unit-tested, the core metrics also run as SQL in DuckDB, and a Power BI kit rebuilds the same model with tie-out numbers that match the app.
 
-`Python · Pandas · Streamlit · Plotly · SciPy · DuckDB · Power BI · DAX`
+`Python · Pandas · Streamlit · Plotly · SciPy · DuckDB · Gemini API · Power BI · DAX`
 
 ## What I work with
 
