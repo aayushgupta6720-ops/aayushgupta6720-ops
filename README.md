@@ -28,7 +28,7 @@ Watches Stripe's Node SDK for breaking changes, finds the affected code through 
 
 **[AI Student Assistant](https://github.com/aayushgupta6720-ops/AI_Student_Assistant)** — a study-notes chatbot built in five layers · [Live demo](https://ai-student-assistant-hz02.onrender.com)
 
-Built to show how a production AI app is organised: client, intelligence, inference, knowledge and tools, each its own package, with a test that fails if a layer imports across the line. Answers stream token by token and call six tools, from note search to a web page reader that opens only links the user typed. It retrieves over your own uploaded notes, including scanned PDFs that Gemini transcribes, and shows under every answer which layer did the work and how long it took. Its 20-question answer evaluation passes 20/20.
+Built to show how a production AI app is organised: client, intelligence, inference, knowledge and tools, each its own package, with a test that fails if a layer imports across the line. Answers stream token by token and call six tools, from note search to a web page reader that opens only links the user typed. It retrieves over your own uploaded notes, including scanned PDFs that Gemini transcribes, and shows under every answer which layer did the work and how long it took. Its answer evaluation counts an answer only if it came from the user's notes, and passes 28/28, including 8 held-out questions about a fictional course that the model can't answer from what it already knows.
 
 `Python · FastAPI · Gemini API · SQLite · NumPy · Server-Sent Events`
 
