@@ -8,7 +8,7 @@ Currently looking for internships in AI engineering, applied AI, and data-driven
 
 ## Projects
 
-**[Options Pricing & Volatility Lab](https://github.com/aayushgupta6720-ops/options-pricing-lab)** — option pricing models on real NSE data · [Live demo](https://options-pricing-lab.onrender.com)
+**[Options Pricing & Volatility Lab](https://github.com/aayushgupta6720-ops/options-pricing-lab)** — option pricing models on real NSE data · [Live demo](https://options-pricing-volatility-lab.streamlit.app)
 
 Rebuilds the implied volatility surface for NIFTY, BANKNIFTY and RELIANCE from NSE's official end-of-day files, back to July 2024 and updated every trading evening, and fits Heston and SABR to each day (rough Bergomi for NIFTY). Prices vanilla and exotic options (Asian, barrier, lookback) under Black-Scholes, Heston, local volatility and rough Bergomi, and shows how each variance-reduction method's error falls as paths grow. Findings include a variance risk premium of about one vol point on all three underlyings, measured against a variance swap replicated from the option strip, though with intervals that still include zero for both indices, and Black-Scholes pricing a NIFTY barrier option at ₹109 against ₹134–158 under the calibrated smile models. Stale closes that leave a static arbitrage are dropped, and rough Bergomi is fitted on a trading-day clock with its roughness checked across three Monte Carlo seeds; it fits short-dated smiles better than Heston even when Heston gets a long-run variance per expiry, though by only about 0.02 vol points. Uses live NIFTY prices from NSE during market hours; 248 automated tests.
 
@@ -32,7 +32,7 @@ Built to show how a production AI app is organised: client, intelligence, infere
 
 `Python · FastAPI · Gemini API · SQLite · NumPy · Server-Sent Events`
 
-**[E-Commerce Product Analytics Dashboard](https://github.com/aayushgupta6720-ops/ecommerce-analytics-dashboard)** — interactive sales and customer analytics · [Live demo](https://ecommerce-analytics-dashboard-aapp.onrender.com)
+**[E-Commerce Product Analytics Dashboard](https://github.com/aayushgupta6720-ops/ecommerce-analytics-dashboard)** — interactive sales and customer analytics · [Live demo](https://ecommerce-analytics-dashboard-uci.streamlit.app)
 
 Interactive dashboard over 1M invoice lines from a UK online retailer (UCI Online Retail II). Eleven pages cover revenue trends, product concentration (22% of products bring in 80% of revenue), RFM customer segments (Champions are 14% of identified customers but 52% of their net revenue), cohort retention, market-basket rules, returns, five sized recommendations, and predictions scored on a holdout year against honest baselines (churn AUC 0.770, a small but real gain over a recency-and-frequency model at 0.758). An *Ask the data* page answers plain-English questions: Gemini turns each one into a structured request and the tested metric code computes the answer, so the model never produces the numbers (28/28 on a golden-set eval). Every metric is unit-tested, the core metrics also run as SQL in DuckDB, and a Power BI kit sets up the same model in DAX, with the app's numbers to tie out against (it hasn't been opened in Power BI Desktop yet).
 
